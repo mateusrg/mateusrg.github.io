@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato';
+}
+
+body{
+    background: linear-gradient(90deg, #00bbff 5%, #55ff00 50%, #ffff00 80%);
+}
+
+.principal{
+    position: absolute;
+    width: 1290px;
+    height: 930px;
+    left: calc(50% - 1290px/2);
+    top: calc(50% - 930px/2);
+    background: #FFFFFF;
+    border-right: 10px solid #DEDEDE;
+    border-bottom: 10px solid #DEDEDE;
+    border-radius: 15px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    height: 71px;
+    background: #66D6FF;
+    border-right: 10px solid #24C5FF;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav > a{
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.centro-oeste{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 215px;
+    height: 71px;
+    left: calc(50% - 215px/2 - 537.5px);
+    top: calc(50% - 71px/2 - 429.5px);
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+#bandeira{
+    width: 49px;
+    height: 33px;
+    border-radius: 4px;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    width: 166px;
+    height: 73px;
+    left: calc(50% - 166px/2 + 555px);
+    top: calc(50% - 73px/2 - 428.5px);
+    color: #FFFFFF;
+}
+
+.titulo{
+    position: absolute;
+    width: 87px;
+    height: 43px;
+    left: 133px;
+    top: 93px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.desc{
+    position: absolute;
+    width: 436px;
+    height: 49px;
+    left: 133px;
+    top: 153px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+}
+
+#retangulo1{
+    position: absolute;
+    width: 361.5px;
+    height: 241px;
+    margin-left: 45px;
+    margin-top: 248px;
+    background: url(https://www.visiteobrasil.com.br/galerias/carac1-mato-grosso-do-sul-grutas-e-cavernas/988-112215-gruta-do-lago-azul-foto-reproducao-pousadajubais-com-brgr.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#retangulo2{
+    position: absolute;
+    width: 246.06px;
+    height: 241px;
+    margin-left: 477.5px;
+    margin-top: 248px;
+    background: url(assets/Cartografia.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#retangulo3{
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    margin-left: 794.56px;
+    margin-top: 248px;
+    background: url(assets/Mascote-Provisório.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#retangulo4{
+    position: absolute;
+    width: 152px;
+    height: 241px;
+    margin-left: 1106.56px;
+    margin-top: 248px;    
+    background: url(https://meioambiente.culturamix.com/blog/wp-content/gallery/4-258/bacia-do-tocantins-araguaia-8.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#retangulo5{
+    position: absolute;
+    width: 373px;
+    height: 249px;
+    margin-left: 45px;
+    margin-top: 498px;
+    background: url(https://static.todamateria.com.br/upload/bi/om/biomapantanal-0-cke.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#retangulo6{
+    position: absolute;
+    width: 338px;
+    height: 249px;
+    margin-left: 491px;
+    margin-top: 498px;
+    background: url(https://static.todamateria.com.br/upload/cl/im/climadaregiaocentrooeste-cke.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#retangulo7{
+    position: absolute;
+    width: 356.7px;
+    height: 249px;
+    margin-left: 902px;
+    margin-top: 498px;
+    background: url(assets/Bandeira.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.txtRetangulos{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 0.4em;
+    margin-top: 5.2em;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+#txtTocantins{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 0.6em;
+    margin-top: 12em;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.rodape{
+    position: absolute;
+    width: 937px;
+    height: 49px;
+    margin-left: 45px;
+    margin-top: 864px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+}
+
+#cultura1{
+    position: absolute;
+    width: 300px;
+    height: 267px;
+    margin-left: 29px;
+    margin-top: 275px;
+    background: url(assets/1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#cultura2{
+    position: absolute;
+    width: 363.16px;
+    height: 267px;
+    margin-left: 383px;
+    margin-top: 275px;
+    background: url(assets/2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#cultura3{
+    position: absolute;
+    width: 476.41px;
+    height: 267px;
+    margin-left: 800px;
+    margin-top: 275px;
+    background: url(assets/3.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#cultura4{
+    position: absolute;
+    width: 402px;
+    height: 267px;
+    margin-left: 29px;
+    margin-top: 589px;
+    background: url(assets/4.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#cultura5{
+    position: absolute;
+    width: 469.92px;
+    height: 267px;
+    margin-left: 444px;
+    margin-top: 589px;
+    background: url(assets/5.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#cultura6{
+    position: absolute;
+    width: 349.38px;
+    height: 267px;
+    margin-left: 927px;
+    margin-top: 589px;
+    background: url(assets/6.jpg);
+    border-radius: 20px;
+}
+
+.txtCultura{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 0.4em;
+    margin-top: 6em;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    z-index: 2;
+}

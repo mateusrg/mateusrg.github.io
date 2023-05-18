@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato';
+}
+
+body {
+    background: linear-gradient(90deg, #00bbff 5%, #55ff00 50%, #ffff00 80%);
+}
+
+.principal {
+    position: absolute;
+    width: 1290px;
+    height: 930px;
+    left: calc(50% - 1290px/2);
+    top: calc(50% - 930px/2);
+    background: #FFFFFF;
+    border-right: 10px solid #DEDEDE;
+    border-bottom: 10px solid #DEDEDE;
+    border-radius: 15px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    height: 71px;
+    background: #66D6FF;
+    border-right: 10px solid #24C5FF;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav>a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.centro-oeste {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 215px;
+    height: 71px;
+    left: calc(50% - 215px/2 - 537.5px);
+    top: calc(50% - 71px/2 - 429.5px);
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+#bandeira {
+    width: 49px;
+    height: 33px;
+    border-radius: 4px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    width: 166px;
+    height: 73px;
+    left: calc(50% - 166px/2 + 555px);
+    top: calc(50% - 73px/2 - 428.5px);
+    color: #FFFFFF;
+}
+
+.titulo {
+    position: absolute;
+    width: 87px;
+    height: 43px;
+    left: 133px;
+    top: 93px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.desc {
+    position: absolute;
+    width: 436px;
+    height: 49px;
+    left: 133px;
+    top: 153px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+}
+
+.descr {
+    position: absolute;
+    width: 436px;
+    height: 49px;
+    left: 133px;
+    top: 163px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+}
+
+.descri {
+    position: absolute;
+    width: 436px;
+    height: 49px;
+    left: 133px;
+    top: 163px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+}
+
+.História {
+    position: absolute;
+    width: 87px;
+    height: 43px;
+    left: 133px;
+    top: 93px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.Economia {
+    position: absolute;
+    width: 87px;
+    height: 43px;
+    left: 133px;
+    top: 93px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.retangulo {
+    position: absolute;
+    width: 425px;
+    height: 210px;
+    top: 270px;
+    background: url(assets/ouro.webp);
+    left: 100px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangulo2 {
+    position: absolute;
+    width: 475px;
+    height: 210px;
+    top: 270px;
+    background: url(./assets/ferrovia.jpg);
+    left: 630px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangulo3 {
+    position: absolute;
+    width: 425px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/brasilia.webp);
+    left: 100px;
+    border-radius: 20px;
+    border-color: #000000;
+
+    background-size: cover;
+}
+
+.retangulo4 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/guerra_do_paraguai.webp);
+    left: 900px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangulo5 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/indios.jpg);
+    left: 630px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangul {
+    position: absolute;
+    width: 475px;
+    height: 210px;
+    top: 270px;
+    background: url(./assets/agricultura-4.0-1024x631.jpeg);
+    left: 100px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangul2 {
+    position: absolute;
+    width: 475px;
+    height: 210px;
+    top: 270px;
+    background: url(./assets/indústria.jpeg);
+    left: 630px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangul3 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/madeira.jpg);
+    left: 100px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangul4 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/pecuaria.webp);
+    left: 900px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+}
+
+.retangul5 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/sh_energia-hidreletrica_11605627.jpg);
+    left: 630px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+
+
+}
+
+.retangul6 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 590px;
+    background: url(./assets/ouro.webp);
+    left: 370px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-size: cover;
+}
+
+.txtretangulos {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 9px;
+    bottom: -20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    background-size: cover;
+}
